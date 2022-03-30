@@ -1,7 +1,6 @@
 node_modules
 .DS_Store
 attributes
-metadata
 attributes_config.json
 .ipynb_checkpoints
 *.DS_Store
