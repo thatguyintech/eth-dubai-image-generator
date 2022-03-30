@@ -31,6 +31,9 @@ def write_to_attributes_config():
     f.write(dumps(parse_attributes_directory(dir_path), sort_keys=True, indent=4))
     f.close()
 
+
+print("writing to attributes_config.json ..")
+
 write_to_attributes_config()
 
 # print(dumps(parse_attributes_directory("/Users/alberthu/Documents/co/nft-image-generator/attributes"), sort_keys=False, indent=4))
